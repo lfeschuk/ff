@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "464053191821",
+    "firebase_url": "https://jetpack-f6617.firebaseio.com",
+    "project_id": "jetpack-f6617",
+    "storage_bucket": "jetpack-f6617.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464053191821:android:17a0a97c6c01e863",
+        "android_client_info": {
+          "package_name": "com.example.leonid.jetpack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464053191821-a9poqrb8qirp42l72pk9ahho9a3ks96b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzA_cf56CDNPEi-eDgW-CVgXdfCDt0XTk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

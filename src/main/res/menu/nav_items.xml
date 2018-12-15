@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <!--
+                Add menu items here
+                Menu items with icon and Title
+        -->
+        <item
+            android:id="@+id/nav_1"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="רענון" />
+        <item
+            android:id="@+id/nav_2"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="שליחים על הכביש " />
+        <item
+            android:id="@+id/nav_3"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="משלוחים דחויים" />
+        <item
+            android:id="@+id/nav_4"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="סינון משלוחים" />
+        <item
+            android:id="@+id/nav_15"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="שעות נוכחות" />
+        <item
+            android:id="@+id/nav_5"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="תקלות בזמן משמרת" />
+        <item
+            android:id="@+id/nav_6"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="כיבוי התראות משלוחים נכנסים" />
+        <item
+            android:id="@+id/nav_7"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="שליחת שליח לתחנת דלק" />
+        <item
+            android:id="@+id/nav_8"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="חבילות" />
+        <item
+            android:id="@+id/nav_9"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="קווי דיוור" />
+        <item
+            android:id="@+id/nav_10"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="קווים בין עירוניים" />
+        <item
+            android:id="@+id/nav_11"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="משמרות" />
+        <item
+            android:id="@+id/nav_12"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="צ'אט עם השליחים" />
+        <item
+            android:id="@+id/nav_13"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="הכנס משלוח" />
+        <item
+            android:id="@+id/nav_14"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="התנתק" />
+    </group>
+</menu>

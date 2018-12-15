@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="right"
+    >
+
+    <TextView
+        android:id="@+id/index_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="#14143:" />
+
+    <TextView
+        android:id="@+id/date_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/index_order"
+        android:text="sunday:" />
+
+    <TextView
+        android:id="@+id/delivery_guy_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/date_order"
+        android:text="sunday:"
+         />
+
+    <TextView
+        android:id="@+id/restoraunt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/delivery_guy_info"
+        android:text="sunday:"
+        />
+
+    <TextView
+        android:id="@+id/restoraunt_adress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/restoraunt"
+        android:text="sunday:"
+     />
+
+    <TextView
+        android:id="@+id/time_of_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/restoraunt_adress"
+        android:text="sunday:"
+        />
+
+    <TextView
+        android:id="@+id/time_after_prepare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/time_of_order"
+        android:text="sunday:"
+         />
+
+    <TextView
+        android:id="@+id/time_arrived_to_restoraunt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/time_after_prepare"
+        android:text="sunday:"  />
+
+    <TextView
+        android:id="@+id/time_leave_restoraunt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/time_arrived_to_restoraunt"
+        android:text="sunday:"
+         />
+
+    <TextView
+        android:id="@+id/time_delivery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/time_leave_restoraunt"
+        android:text="sunday:"
+     />
+
+    <Button
+        android:id="@+id/button_end"
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="gone"
+        android:layout_below="@+id/time_delivery"
+        android:text="סגור"
+         />
+
+</RelativeLayout>

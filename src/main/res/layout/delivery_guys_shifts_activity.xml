@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="58dp">
+
+        <include
+            android:id="@+id/include2"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tableLayout_dev_guy_shift"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:id="@+id/tableRow0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/textView_delivery_delayed_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="6"
+                android:gravity="center"
+                android:text="@string/delivery_guy_shift"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/delayed_row_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView android:text=""></TextView>
+
+            <TextView
+                android:id="@+id/shift_sunday"
+                android:gravity="center"
+                android:text="ראשון"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/shift_monday"
+                android:gravity="center"
+                android:text="שני"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/shift_thuesday"
+                android:gravity="center"
+                android:text="שלישי"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/shift_wednesday"
+                android:gravity="center"
+                android:text="רביעי"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/shift_thursday"
+                android:gravity="center"
+                android:text="חמישי"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/shift_friday"
+                android:gravity="center"
+                android:text="שישי"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/shift_saturday"
+                android:gravity="center"
+                android:text="שבת"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tableLayout_shift_status"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:layout_marginTop="8dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout_dev_guy_shift">
+
+
+        <TableRow
+        android:id="@+id/wanted_morning"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:text="רצוי"
+            android:textColor="@color/white">
+        </TextView>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/sunday_morning_wanted"
+            android:typeface="serif"></android.support.v7.widget.AppCompatSpinner>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/monday_morning_wanted"
+
+            android:typeface="serif"></android.support.v7.widget.AppCompatSpinner>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/tuesday_morning_wanted"
+            android:typeface="serif"></android.support.v7.widget.AppCompatSpinner>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/wednesday_morning_wanted"
+            android:typeface="serif"></android.support.v7.widget.AppCompatSpinner>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/thursday_morning_wanted"
+            android:typeface="serif"></android.support.v7.widget.AppCompatSpinner>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/friday_morning_wanted"
+            android:typeface="serif"></android.support.v7.widget.AppCompatSpinner>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/saturday_morning_wanted"
+            android:typeface="serif"></android.support.v7.widget.AppCompatSpinner>
+    </TableRow>
+        <TableRow
+            android:id="@+id/wanted_evening"
+            android:background="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView android:text=""></TextView>
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/sunday_evening_wanted"
+                android:typeface="serif"></android.support.v7.widget.AppCompatSpinner>
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/monday_evening_wanted"
+                android:typeface="serif"></android.support.v7.widget.AppCompatSpinner>
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/tuesday_evening_wanted"
+                android:typeface="serif"></android.support.v7.widget.AppCompatSpinner>
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/wednesday_evening_wanted"
+                android:typeface="serif"></android.support.v7.widget.AppCompatSpinner>
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/thursday_evening_wanted"
+                android:typeface="serif"></android.support.v7.widget.AppCompatSpinner>
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/friday_evening_wanted"
+                android:typeface="serif"></android.support.v7.widget.AppCompatSpinner>
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/saturday_evening_wanted"
+                android:typeface="serif"></android.support.v7.widget.AppCompatSpinner>
+        </TableRow>
+        <TableRow
+            android:id="@+id/given_morning"
+            android:background="@color/blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView android:text="מצוי"></TextView>
+
+            <TextView
+                android:id="@+id/sunday_morning_given"
+                android:gravity="left"
+                android:text="ראשון"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/monday_morning_given"
+                android:gravity="left"
+                android:text="שני"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/tuesday_morning_given"
+                android:gravity="left"
+                android:text="שלישי"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/wednesday_morning_given"
+                android:gravity="left"
+                android:text="רביעי"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/thursday_morning_given"
+                android:gravity="left"
+                android:text="חמישי"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/friday_morning_given"
+                android:gravity="left"
+                android:text="שישי"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/saturday_morning_given"
+                android:gravity="left"
+                android:text="שבת"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+        </TableRow>
+        <TableRow
+            android:id="@+id/given_evening"
+            android:background="@color/blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView android:text=""></TextView>
+
+            <TextView
+                android:id="@+id/sunday_evening_given"
+                android:gravity="left"
+                android:text="ראשון"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/monday_evening_given"
+                android:gravity="left"
+                android:text="שני"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/tuesday_evening_given"
+                android:gravity="left"
+                android:text="שלישי"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/wednesday_evening_given"
+                android:gravity="left"
+                android:text="רביעי"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/thursday_evening_given"
+                android:gravity="left"
+                android:text="חמישי"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/friday_evening_given"
+                android:gravity="left"
+                android:text="שישי"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/saturday_evening_given"
+                android:gravity="left"
+                android:text="שבת"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+        </TableRow>
+        <TableRow
+            android:id="@+id/missing_morning"
+            android:background="@color/red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView android:text="חוסר"></TextView>
+
+            <TextView
+                android:id="@+id/sunday_morning_missing"
+                android:gravity="left"
+                android:text="ראשון"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/monday_morning_missing"
+                android:gravity="left"
+                android:text="שני"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/tuesday_morning_missing"
+                android:gravity="left"
+                android:text="שלישי"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/wednesday_morning_missing"
+                android:gravity="left"
+                android:text="רביעי"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/thursday_morning_missing"
+                android:gravity="left"
+                android:text="חמישי"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/friday_morning_missing"
+                android:gravity="left"
+                android:text="שישי"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/saturday_morning_missing"
+                android:gravity="left"
+                android:text="שבת"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+        </TableRow>
+        <TableRow
+            android:id="@+id/missing_evening"
+            android:background="@color/red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView android:text=""></TextView>
+
+            <TextView
+                android:id="@+id/sunday_evening_missing"
+                android:gravity="left"
+                android:text="ראשון"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/monday_evening_missing"
+                android:gravity="left"
+                android:text="שני"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/tuesday_evening_missing"
+                android:gravity="left"
+                android:text="שלישי"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/wednesday_evening_missing"
+                android:gravity="left"
+                android:text="רביעי"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/thursday_evening_missing"
+                android:gravity="left"
+                android:text="חמישי"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/friday_evening_missing"
+                android:gravity="left"
+                android:text="שישי"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+
+            <TextView
+                android:id="@+id/saturday_evening_missing"
+                android:gravity="left"
+                android:text="שבת"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:typeface="serif"></TextView>
+        </TableRow>
+
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout_shift_status">
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:text="שלח" />
+
+        <Button
+            android:id="@+id/send_to_guy"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:text=" שלח לשליח" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

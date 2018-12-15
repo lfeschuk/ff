@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">jetpack</string>
+    <string name="login_screen_show">ברוך הבא ל jetpack</string>
+    <string name="login_button">הרשם</string>
+    <string name="enter_password">הכנס סיסמא</string>
+    <string name="enter_email">הכנס כתובת דוא\'\'ל</string>
+    <string name="delayed_delivery_title">משלוחים דחויים</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="button_sign_delivery_guy">צוות</string>
+    <string name="calculate_route">חשב מסלול</string>
+    <string name="cancel_order">בטל משלוח</string>
+    <string name="change_status">0 סטאטוס</string>
+    <string name="restore_delivery">החזר משלוח</string>
+    <string name="delete_delivery">מחק משלוח</string>
+    <string name="button_date_from">תאריך מ:</string>
+    <string name="button_date_to">תאריך עד:</string>
+    <string name="sort_by_business">בחר עסק</string>
+    <string name="sort_by_index">בחר מספר הזמנה</string>
+    <string name="button_sort">מיין</string>
+    <string name="choose_delivery_guy_hours">בחר שליח</string>
+    <string name="chose_hour">בחר שעה</string>
+    <string name="chose_hour_end">תאריך סיום</string>
+    <string name="chose_hour_start">תאריך התחלה</string>
+    <string name="notification_available">התראות דלוקות</string>
+    <string name="notification_disable">התראות כבויות</string>
+    <string name="chose_deliv_guy">בחר שליח</string>
+    <string name="chose_gas_sta">בחר תחנת דלק</string>
+    <string name="delivery_guy_shift">משמרות שליחים</string>
+    <string name="choose_business_or_restoraunt">בחר סוג</string>
+    <string name="show_restoraunt">בחר מסעדה</string>
+    <string name="add_delivery">הוסף משלוח</string>
+    <string name="get_restoraunts">בחר מסעדה</string>
+    <string name="title_activity_maps_new">Map</string>
+    <string name="enter_name">הכנס שם משתמש</string>
+</resources>
